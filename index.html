@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+  <link rel="stylesheet" href="asset/css/all.css">
+  <style>
+
+    body{
+      background-color: white;
+    }
+
+    .carousel-item img {
+      max-height: 550px;
+    }
+    a:hover #navbarSupportedContent li{
+      color: red;
+      
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <!-- Navbar Image -->
+    <a class="navbar-brand" href="#">
+      <img src="asset/image/logoku.jpg" width="120" height="90" alt="" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#carouselExampleCaptions">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Portofolio">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+  
+  <!-- Carousel -->
+  
+  <!-- copy dari bootstrap carousel -->
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="asset/image/coding.jpg" class="d-block w-100" alt="slide pertama">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Programming</h5>
+          <p>The job that all programming does is coding.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/image/enjoy.jpg" class="d-block w-100" alt="slide kedua">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-white">Break</h5>
+          <p>Rest if you are tired enjoy life for a moment.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/image/sok.jpeg" class="d-block w-100" alt="slide ketiga">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>programmer</h5>
+          <p>this pro player of programmer.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  <!-- Portofolio -->
+  
+  <section class="container">
+    <div class="row mt-5">
+      <div class="col-sm-12">
+        
+        <!-- copy dari bootstrap cards -->
+        
+        <h2 id="Portofolio" class="display-4 text-center">Portofolio</h2>
+        
+        <div class="card-group">
+          <div class="card">
+            <img src="asset/image/gw.jpeg" class="card-img-top" alt="portofolio 1" style="height: 495px;">
+            <div class="card-body">
+              <h5 class="card-title"><b>School</b></h5>
+              <p class="card-text"><b>#Muhammad Rimba</b></p>
+              <p>I went to school in the city of Jepara to be precise in the Bangsri sub-district, namely SMKN1BANGSRI, I went to school there majoring in RPL or software engineering, from a young age I understood a little about computers so I chose RPL.</p>
+              <p class="card-text"><small class="text-muted">Last updated 1 days ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="asset/image/rimba.JPG" class="card-img-top" alt="portofolio 2" style="height: 495px;">
+            <div class="card-body">
+              <h5 class="card-title"><b>My Life</b></h5>
+              <p class="card-text">my name is Muhammad Rimba Abdillah and I am 16 years old I live in Jepara to be precise in the Kawak village and now I am doing an internship in the city of Tangerang..</p>
+              <p class="card-text"><small class="text-muted">Last updated 1 days ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="asset/image/goku.jpg" class="card-img-top" alt="portofolio 3" style="height: 495px;">
+            <div class="card-body">
+              <h5 class="card-title"><b>Anime</b></h5>
+              <p class="card-text">I like a number of things like film music and sports, one of which is watching anime, I love anime, it's one of my favorites.</p>
+              <p class="card-text"><small class="text-muted">Last updated 1 days ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Team -->
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 id="Team" class="display-4 text-center">Team</h2>
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col-sm">
+        <img class="rounded-circle" src="asset/image/aku.jpg" alt="member 1" width="90" height="90">
+        <p>Anang Syah Amirul Haqim</p>
+      </div>
+      <div class="col-sm">
+        <img class="rounded-circle" src="asset/image/gw.jpeg" alt="member 2" width="90" height="90">
+        <p>Muhammad Rimba Abdillah</p>
+      </div>
+      <div class="col-sm">
+        <img class="rounded-circle" src="asset/image/jess.jpg" alt="member 3" width="90" height="90">
+        <p>khoirudin</p>
+      </div>
+      <div class="col-sm">
+        <img class="rounded-circle" src="asset/image/jess.jpg" alt="member 4" width="90" height="90">
+        <p>Reza Fatikhul Hidayat</p>
+      </div>
+      <div class="col-sm">
+        <img class="rounded-circle" src="asset/image/jess.jpg" alt="member 5" width="90" height="90">
+        <p>Miftachul Rohman</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About -->
+  
+  <section class="container">
+    <div class="row mt-5">
+      <div class="col-sm-12">
+        <h2 id="About" class="display-4 text-center">About</h2>
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col-sm-12">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">PERSONAL DATA</h5>
+              <small>3 days ago</small>
+            </div>
+            <ul class="mb-1">
+              <li>Name : Muhammad Rimba Abdillah</li>
+              <li>Date Of Birth : Jepara,2 july 2004</li>
+              <li>Gender : Male</li>
+              <li>Religion : Islam</li>
+            </ul>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">MY HOBBY</h5>
+              <small>3 days ago</small>
+            </div>
+            <ul class="mb-1">
+              <li>Watching Anime</li>
+              <li>Game Mobile</li>
+              <li>Pencak Silat</li>
+              <li>Swimming</li>
+            </ul>
+            <small>That's My Hobby.</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">MY SKILLS</h5>
+              <table>
+                <tr><th width="150">HTML</th><td width="300" style="text-align:left;"><div style="width:200px; height:10px; background:rgb(28, 175, 9);"></td></tr>
+                  <tr><th width="150">CSS</th><td width="300" style="text-align:left;"><div style="width:170px; height:10px; background:rgb(82, 238, 10);"></td></tr>
+                    <tr><th width="150">PHP</th><td width="300" style="text-align:left;"><div style="width:140px; height:10px; background:rgb(200, 243, 9);"></td></tr>
+                      <tr><th width="150">JS</th><td width="300" style="text-align:left;"><div style="width:80px; height:10px; background:rgb(243, 26, 10);"></td></tr>
+                      </table>
+                      <small class="text-muted">3 days ago</small>
+                    </div>
+                    <small class="text-muted">That's My Skills In Coding.</small>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">DEDICATION</h5>
+                      <small class="text-muted">3 days ago</small>
+                    </div>
+                    <ul class="mb-1">
+                      <li>2010-2016 : SDN 1 KAWAK</li>
+                      <li>2017-2019 : SMPN 2 BANGSRI</li>
+                      <li>2020      : SMKN 1 BANGSRI</li>
+                    </ul>
+                    <small class="text-muted">My Education Still Continues Until Now.</small>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Footer -->
+          
+          <section class="container-fluid">
+            <div class="row mt-5 bg-dark">
+              <div class="col-sm-4 text-white">
+                <h2 class="display-4 text-center">Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.0471233968021!2d110.7823668291545!3d-6.497804867216207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e712314c557c5d3%3A0x9f9d0caa5004551d!2sJl.%20Kembang%20-%20Tubanan%2C%20Kedung%2C%20Kancilan%2C%20Kembang%2C%20Kabupaten%20Jepara%2C%20Jawa%20Tengah%2059453!5e0!3m2!1sid!2sid!4v1599278289700!5m2!1sid!2sid" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="col-sm-4 text-white">
+                <h2 class="display-4 text-center">Contact</h2>
+                <div>
+                  <i class="fab fa-whatsapp" style="font-size: 4rem"></i>
+                  <a href="https://wa.me/62895363652521" class="text-white text-decoration-none btn btn-outline-light align-top mt-3 ml-5" target="_blank">0895363652521</a>
+                </div>
+              </div>
+              <div class="col-sm-4 text-white">
+                <h2 class="display-4 text-center">Social Media</h2>
+                <div>
+                  <i class="fab fa-facebook" style="font-size: 4rem"></i>
+                  <a href="https://www.facebook.com/rimba.chan.5" class="text-white text-decoration-none btn btn-outline-light align-top mt-3 ml-2" target="_blank">Muhammad Rimba</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <script src="asset/js/jquery-3.5.1.slim.min.js"></script>
+          <script src="asset/js/bootstrap.min.js"></script>
+          <script src="asset/js/popper.min.js"></script>
+        </body>
+        </html>

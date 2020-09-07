@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <script src="asset/js/jquery-3.5.1.full.js"></script>
+    <style>
+        .header{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header"></div>
+
+    <button id="show">Tampil Gambar</button>
+    <button id="hide">Sembunyikan Gambar</button>
+
+    <!-- Elemen Gambar -->
+
+    <div id="gambar"></div>
+        <img id="load-gambar" src="asset/image/astronot.jpg" alt="astronot" width="500px">
+    </div>
+
+<!-- <script src="asset/js/jquery-3.5.1.slim.min.js"></script> -->
+<script>
+    $(document).ready(function(){
+        $(".header").html('Jepara');
+        $(".header").click(function(){
+            $('.header').css({"border":"1px solid blue"});
+        })
+    });
+
+    // Efek Animasi
+
+    // $("#gambar").html("<img id='load-gambar'></img>");
+
+    // $("#show").click(function(){
+    //     $('#load-gambar').attr({'src':'asset/image/astronot.jpg',"width":"200px"});
+    // });
+    $("#load-gambar").hide();
+
+    $("#show").click(function(){
+        $('#load-gambar').fadeIn();
+    });
+
+    $("#hide").click(function(){
+        $('#load-gambar').fadeOut(3000);
+    });
+
+</script>
+</body>
+</html>
